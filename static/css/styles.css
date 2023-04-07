@@ -113,7 +113,7 @@ body {
 
 #sec-4 {
     padding-top: 120px;
-    padding-bottom: 150px;
+    padding-bottom: 120px;
     text-align: center;
 }
 
@@ -216,12 +216,27 @@ tbody tr {
 }
 
 .sec-4-content{
-    padding-top: 80px;
+    padding-top: 60px;
     text-align: center;
 }
 
-.graph {
-    padding-top: 60px;
+.graphs{
+    padding-top: 50px;
+}
+
+#tlineChart{
+    padding-left: 100px;
+    float: left;
+}
+
+#hlineChart{
+    padding-right: 100px;
+    float: right;
+}
+
+.sec-4-bottom{
+    padding-top: 500px;
+    text-align: center;
 }
 
 #sec-5 {
@@ -290,6 +305,7 @@ tbody tr {
 }
 
 #sec-6 p {
+    text-align:justify;
     font-size: 25px;
 }
 
