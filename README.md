@@ -22,5 +22,12 @@ In Backend, we used Python framework called Flask to process the machine learnin
 
 openWeather API
 
+![image](https://github.com/Hariharan-A-1268/Weather-Prediction-using-ML/assets/120185640/7501b422-7171-4e50-890f-6ffc716794fa)
+![image](https://github.com/Hariharan-A-1268/Weather-Prediction-using-ML/assets/120185640/324882f3-056f-4089-8726-82708dc011fa)
+![image](https://github.com/Hariharan-A-1268/Weather-Prediction-using-ML/assets/120185640/a07f0076-2fca-4ed5-bdfa-16b1ea6acd02)
+![image](https://github.com/Hariharan-A-1268/Weather-Prediction-using-ML/assets/120185640/1d498e49-d41e-4fef-afa9-7907357aae16)
+![image](https://github.com/Hariharan-A-1268/Weather-Prediction-using-ML/assets/120185640/a2f8645b-13df-4196-997d-5f0593457283)
+
+
 
 
