@@ -1,45 +1,34 @@
-# Core Flask dependencies
-Flask==2.1.2  # specify your desired version
-gunicorn==20.1.0  # stable version for deployment
-
-# Optional Flask dependencies (only if needed)
-Werkzeug==2.1.2  # specify version
-Jinja2==3.1.2
-itsdangerous==2.1.2
-MarkupSafe==2.1.1
-
-# Request handling and external API calls (only if you're making HTTP requests)
-requests==2.27.1
-urllib3==1.26.9
-idna==3.3
-certifi==2022.5.18.1
-charset-normalizer==2.0.12
-
-# Libraries for data analysis (include only if you need them)
-numpy==1.22.3
-pandas==1.4.2
-scikit-learn==1.0.2
-scipy==1.8.0
-matplotlib==3.5.1
-pmdarima==1.8.2
-statsmodels==0.13.2
-
-# Other optional packages (remove if not used)
-pytz==2022.1
-python-dateutil==2.8.2
-six==1.16.0
-cycler==0.11.0
-kiwisolver==1.4.2
-pyparsing==3.0.8
-fonttools==4.33.3
-Pillow==9.1.1
-joblib==1.1.0
-threadpoolctl==3.1.0
-packaging==21.3
-patsy==0.5.2
-
-# Color output for CLI (if you use colorama)
-colorama==0.4.4
-
-# Cython is not typically needed unless you're doing specific optimizations
-Cython==0.29.28
+certifi
+charset-normalizer
+click
+colorama
+contourpy
+cycler
+Cython
+Flask
+fonttools
+idna
+itsdangerous
+Jinja2
+joblib
+kiwisolver
+MarkupSafe
+matplotlib
+numpy
+packaging
+pandas
+patsy
+Pillow
+pmdarima
+pyparsing
+python-dateutil
+pytz
+requests
+scikit-learn
+scipy
+six
+statsmodels
+threadpoolctl
+urllib3
+Werkzeug
+gunicorn
