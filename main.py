@@ -21,8 +21,7 @@ def home():
             city_form = request.form
             city = city_form['city']
             current_data = requests.get(
-                f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid=69f04e4613056b159c2761a9d9"
-                "e664d2&units=metric")
+                f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid=2be54f58c660924bb608d83b3a204801&units=metric")
             data_for_current_temp = current_data.json()
             city_name = data_for_current_temp['name']
         except KeyError:
@@ -31,8 +30,7 @@ def home():
             city_form = request.form
             city = city_form['city']
             current_data = requests.get(
-                f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid=69f04e4613056b159c2761a9d9"
-                "e664d2&units=metric")
+                f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid=2be54f58c660924bb608d83b3a204801&units=metric")
             data_for_current_temp = current_data.json()
             city_name = data_for_current_temp['name']
             current_temp = round(data_for_current_temp['main']['temp'])
@@ -57,15 +55,14 @@ def prediction():
             city_form = request.form
             city = city_form['city']
             current_data = requests.get(
-                f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid=69f04e4613056b159c2761a9d9"
-                "e664d2&units=metric")
+                f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid=2be54f58c660924bb608d83b3a204801&units=metric")
             data_for_current_temp = current_data.json()
             LAT = data_for_current_temp['coord']['lat']
             LON = data_for_current_temp['coord']['lon']
             parameters = {
                 "lat": LAT,
                 "lon": LON,
-                "appid": "69f04e4613056b159c2761a9d9e664d2",
+                "appid": "2be54f58c660924bb608d83b3a204801",
             }
         except KeyError:
             return render_template('404_error.html')
@@ -73,15 +70,14 @@ def prediction():
             city_form = request.form
             city = city_form['city']
             current_data = requests.get(
-                f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid=69f04e4613056b159c2761a9d9"
-                "e664d2&units=metric")
+                f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid=2be54f58c660924bb608d83b3a204801&units=metric")
             data_for_current_temp = current_data.json()
             LAT = data_for_current_temp['coord']['lat']
             LON = data_for_current_temp['coord']['lon']
             parameters = {
                 "lat": LAT,
                 "lon": LON,
-                "appid": "69f04e4613056b159c2761a9d9e664d2",
+                "appid": "2be54f58c660924bb608d83b3a204801",
             }
             response = requests.get("https://api.openweathermap.org/data/2.5/onecall", params=parameters)
             response.raise_for_status()
@@ -155,8 +151,7 @@ def prediction():
             humidity_5 = round(list_file2[4], 1)
 
             current_data = requests.get(
-                f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid=69f04e4613056b159c2761a9d9"
-                "e664d2&units=metric")
+                f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid=2be54f58c660924bb608d83b3a204801&units=metric")
             data_for_current_temp = current_data.json()
             city_name = data_for_current_temp['name']
             current_temp = round(data_for_current_temp['main']['temp'])
